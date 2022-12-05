@@ -13,12 +13,15 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Turtle Rock")
+                .font(.title)
+                .foregroundColor(.green)
         }
         .padding()
     }
 }
 
+// プレビューを宣言
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
